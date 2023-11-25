@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="extension.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="note" id="note1">WARNING your password is visible :
+        <br>
+        Inspect-> Applocations-> LocalStorage
+        <button id="ok">OKAY</button>   
+    </div>
+    <div id="loginSignupDiv">
+        <label for="usernameLogin" id="labelForUsernameLogin">Enter Username</label>
+        <label for="usernameSignup" id="labelForUsernameSignup">Enter New Username</label>
+        <div class="user" id="user">
+            <input type="text" id="usernameSignup" class="user-signup">
+            <input type="text" id="usernameLogin" class="user-login">
+        </div>
+        <label for="passwordSignup" id="labelForPasswordLogin">Enter Password</label>
+        <label for="passwordLogin" id="labelForPasswordSignup">Enter Password</label>
+        <div class="pass">
+            <input type="text" id="passwordSignup" class="pass-signup">
+            <input type="text" id="passwordLogin" class="pass-login">
+            <h2 id="errorMessage"></h2>
+        </div>
+    </div>
+        <div id="after-login">
+            <!--This div will be filled with innerHTML-->
+            <div id="fill">
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <button id="loginButton" class="loginButtons">LOGIN</button><button id="signupButton" class="signup-btn">SIGNUP</button>
+        <br><br><br>
+        <button id="new-signup">New? Create an account?</button><button id="already-login">Already have an account ? Login</button>      
+        <div id="plansDis">
+            <h1>Website's Plans</h1>
+            <ul>
+                <li><h2>Change password option [ Yekshanbe/Doshanbe ]</h2></li>
+                <li><h2>Delete Account [ unknown date ]</h2></li>
+                <li><h2>More user's Information [ like phone number, email and more... wendsday ]</h2></li>
+            </ul>
+            <br><br><br><br>
+            <h2>Thanks For visiting</h2>
+            <h2>here is a link on how i built this !</h2>
+            <br>
+            <h2><a href="null">Currently Under Development</a></h2>
+        </div>
+        <script src="extension.js"></script>
+</body>
+</html>
